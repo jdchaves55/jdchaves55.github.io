@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Source+Sans+Pro:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+	margin: 0;
+}
+/*Etiquetas*/
+header{ 
+	background-color: #003049;
+	display: flex;
+	align-items: center;
+}
+
+nav{ 
+	background-color: black;
+
+}
+
+nav ul{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	border-top: black;
+}
+
+nav ul li a{
+	border-color: black;
+	color: white;
+	text-decoration: none;
+	font-family: Poppins;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 5px;
+	display: block;
+	
+}
+
+nav ul li a:hover{
+	background-color: #f39300;
+
+}
+
+main{
+	display: flex;
+	text-align: center;
+
+}
+
+article{
+	display: flex;
+	text-align: center;
+
+}
+
+aside{
+	display: flex;
+	text-align: center;
+}
+
+aside p{
+	font-family: 'Gentium Book Basic', serif;
+}
+
+/*Clases*/
+.logo{
+	width: 30%;
+}
+
+.logo img{
+	width: 40%;
+	padding: 5px;
+}
+
+.titSARA{
+	width: 30%;
+	padding: 0px 0px 0px 150px;
+}
+
+.titSARA img{
+	width: 70%;
+	padding: 5px;
+
+}
+.titulo h2 {
+	text-align: center;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin: 0px;
+	padding: 20px 0px 5px 0px;
+}
+
+.titulo h1{
+	text-align: center;
+	margin: 0px;
+	font-family: Bookman Old Style;
+	font-weight: bold;
+	font-size: 42px;
+	padding: 5px 0px 20px 0px;
+}
+
+.electrans{
+	background-color: #f39300 ;
+	width: 50%;
+	padding: 10px 15px;
+	border: 2px solid black;
+	margin: 0 20px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.electrans a{
+	color: #003049;
+	font-family: Cabin;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+.electrans p{
+	color: #003049;
+	font-family: Cabin;
+	font-size: 20px;
+	text-decoration: none;
+	text-align: justify;
+}
+
+.electrans a img{
+	width: 65%;
+	text-decoration: none;
+}
+
+.elecmen{
+	background-color: #f39300 ;
+	width: 50%;
+	padding: 10px 15px;
+	border: 2px solid black;
+	margin: 0 20px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.elecmen a {
+	color: #003049;
+	font-family: Cabin;
+	font-size: 40px;
+	text-decoration: none;
+}
+
+
+.elecmen h2{
+	text-decoration: none;
+	color: #003049;
+	font-family: Cabin;
+	font-size: 40px
+}
+
+.elecmen a img{
+	width: 50%;
+}
+
+.elecmen p{
+	color: #003049;
+	font-family: Cabin;
+	font-size: 20px;
+	text-decoration: none;
+	text-align: justify;
+}
+
+/* Solicita un servicios */
+
+.soli{
+	
+	background-color: #f39300 ;
+	width: 96%;
+	padding: 10px 15px;
+	border: 2px solid black;
+	margin: 0 20px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.soli h2{
+	color: #003049;
+	font-family: Cabin;
+	font-size: 60px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.soli p{
+	color: black;
+	font-family: Cabin;
+	font-size: 40px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.soli img{
+	width: 40%;
+	text-decoration: none;
+
+}
+
+ /* Botones */
+ .boton{
+	 margin: 18px 10px;
+	 width: 35%;
+	 padding: 10px 10px;
+	 background-color:#003049;
+	 color: #F2E8CF;
+	 font-family: roboto;
+	 font-size: 30px;
+	 font-weight: 500;
+	 border: none;
+	 cursor: pointer;
+	 transition: .3s ease all;
+	 border-radius: 5px;
+ }
+ .boton:hover{
+	 background-color: #4762b1;
+	 color: white;
+ }
+ .boton2{
+	margin: 18px 10px;
+	width: 20%;
+	padding: 10px 10px;
+	background-color:#003049;
+	color: #F2E8CF;
+	font-family: roboto;
+	font-size: 30px;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	transition: .3s ease all;
+	border-radius: 5px;
+}
+.boton2:hover{
+	background-color: #44b835;
+	color: white;
+}
+
+
+/*footer*/
+
+.pie{
+    width: 100%;
+    background-color: #003049;
+}
+
+
+.pie .grupo-1{
+    width: 100%;
+    max-width: 10000px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie .grupo-1 .box h2{
+	font-family: cabin;
+    color: #f39300;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.pie .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+	font-family: Cabin;
+	font-size: 18px;
+	text-align: justify;
+}
+.pie .grupo-1 .red-social a{
+
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie .grupo-1 .red-social a:hover{
+    color: #f39300;
+}
+.pie .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie .grupo-2 small{
+    font-size: 15px;
+}
+
